@@ -223,7 +223,7 @@ RUN echo "Downloading RAT from ${RAT_URL} to ${RAT_JAR}" \
 ARG HOME=/root
 ENV HOME=${HOME}
 
-ARG AIRFLOW_HOME=/root/airflow
+ARG AIRFLOW_HOME=/usr/local/airflow
 ENV AIRFLOW_HOME=${AIRFLOW_HOME}
 
 ARG AIRFLOW_SOURCES=/opt/airflow
