@@ -15,8 +15,8 @@
 #
 # WARNING: THIS DOCKERFILE IS NOT INTENDED FOR PRODUCTION USE OR DEPLOYMENT.
 #
-ARG PYTHON_BASE_IMAGE="python:3.6-slim-stretch"
-FROM ${PYTHON_BASE_IMAGE} as main
+#ARG PYTHON_BASE_IMAGE="python:3.6-slim-stretch"
+FROM python:3.6-slim-stretch
 
 SHELL ["/bin/bash", "-o", "pipefail", "-e", "-u", "-x", "-c"]
 
